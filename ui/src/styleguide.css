@@ -1,0 +1,107 @@
+:root { 
+  --black: #000000;
+  --neutral-colorblack-4: #535353;
+  --neutral-colorblack-5: #9e9e9e;
+  --neutral-colorwhite: #ffffff;
+  --primaryblue: #131b6c;
+  --primarydark-blue: #0f151b;
+  --primarypale-blue: #3dd5f3;
+  --steel-blue: #3880c3;
+ 
+  --font-size-l: 18px;
+  --font-size-m: 16px;
+  --font-size-s: 14px;
+  --font-size-xl: 20px;
+ 
+  --font-family-circular_std-black: "Circular Std-Black", Helvetica;
+  --font-family-circular_std-bold: "Circular Std-Bold", Helvetica;
+  --font-family-circular_std-book: "Circular Std-Book", Helvetica;
+  --font-family-circular_std-medium: "Circular Std-Medium", Helvetica;
+}
+.circularstd-book-normal-white-16px {
+  color: var(--neutral-colorwhite);
+  font-family: var(--font-family-circular_std-book);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.circularstd-black-white-20px {
+  color: var(--neutral-colorwhite);
+  font-family: var(--font-family-circular_std-black);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 900;
+}
+
+.circularstd-book-normal-star-dust-16px {
+  color: var(--neutral-colorblack-5);
+  font-family: var(--font-family-circular_std-book);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.circularstd-bold-white-18px {
+  color: var(--neutral-colorwhite);
+  font-family: var(--font-family-circular_std-bold);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.circularstd-medium-picton-blue-14px {
+  color: var(--primarypale-blue);
+  font-family: var(--font-family-circular_std-medium);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.circularstd-book-normal-white-14px {
+  color: var(--neutral-colorwhite);
+  font-family: var(--font-family-circular_std-book);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.circularstd-bold-white-16px {
+  color: var(--neutral-colorwhite);
+  font-family: var(--font-family-circular_std-bold);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.circularstd-medium-white-16px {
+  color: var(--neutral-colorwhite);
+  font-family: var(--font-family-circular_std-medium);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.circularstd-medium-vulcan-14px {
+  color: var(--primarydark-blue);
+  font-family: var(--font-family-circular_std-medium);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.circularstd-bold-vulcan-18px {
+  color: var(--primarydark-blue);
+  font-family: var(--font-family-circular_std-bold);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 700;
+}
+.circularstd-book-h3-32px {
+  color: var(--neutral-colorwhite);
+  font-family: var(--font-family-circular_std-medium);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 38px;
+}
