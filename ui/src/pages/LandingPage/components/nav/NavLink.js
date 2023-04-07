@@ -4,7 +4,7 @@ export default function NavLink({ href, text, withMarginRight }) {
     return (
         <a
             href={href}
-            className={`text-base font-medium ${
+            className={`hidden sm:flex text-base font-medium ${
                 withMarginRight && "mr-[3.063rem]"
             }`}
         >

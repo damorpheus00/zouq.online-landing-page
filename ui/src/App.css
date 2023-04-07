@@ -1,15 +1,5 @@
-.nav-bar {
-    height: 6.563rem;
-}
-
-.logo {
-    width: 11.313rem;
-    height: 3.225rem;
-}
-
 .hero {
     background-image: url("./assets/images/hero.jpg");
-    min-height: 42.125rem;
     background-size: cover;
 }
 
@@ -21,4 +11,14 @@
     background: linear-gradient(180deg, #000000 0%, #000000 100%);
     opacity: 0.8;
     backdrop-filter: blur(6px);
+}
+
+.banner {
+    background-image: url("./assets/images/zouq-banner.png");
+}
+
+@media screen and (max-width: 425px) {
+    .banner {
+        background-image: url("./assets/images/mobile-banner.png");
+    }
 }

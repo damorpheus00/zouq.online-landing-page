@@ -5,7 +5,7 @@ import ServicesDescription from "./ServicesDescription";
 
 export default function Services() {
     return (
-        <section className="flex justify-between basis-full pl-[7.5rem] pr-[7.5rem] mb-40">
+        <section className="flex flex-wrap-reverse sm:flex-row justify-between basis-full pl-5 pr-5 sm:pl-[7.5rem] sm:pr-[7.5rem] mb-[3.75rem] sm:mb-40">
             <ServicesImage />
             <ServicesDescription />
         </section>
