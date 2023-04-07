@@ -9,7 +9,7 @@ export default function Hero() {
                 <Header text1={"One-Stop-"} text2={"Halal Shop"} main={true} />
             </div>
             <div className="mb-4 sm:mb-6">
-                <p className="text-base sm:text-lg font-black text-neutralcolorwhite brand-text">
+                <p className="text-base sm:text-lg font-black text-neutralcolorwhite common-text">
                     All your{" "}
                     <span className="text-primarypaleBlue"> halal needs </span>{" "}
                     in one marketplace

@@ -9,7 +9,7 @@ export default function CategoryListItem({ text, imgSrc }) {
                 className="min-w-[13.125rem] min-h-[16.875rem] min-sm:h-[19.75rem] min-sm:w-[16.75rem] rounded-[1.25rem]"
             />
             <div className="flex justify-center items-center min-w-[13.125rem] min-h-[3.313rem] sm:min-h-[3.625rem] sm:min-w-[16.75rem] absolute category-text rounded-b-[1.25rem]">
-                <p className="text-base text-neutralcolorwhite font-bold brand-text rounded-b-[1.25rem]">
+                <p className="text-base text-neutralcolorwhite font-bold common-text rounded-b-[1.25rem]">
                     {text}
                 </p>
             </div>

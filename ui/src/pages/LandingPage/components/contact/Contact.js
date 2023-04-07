@@ -12,7 +12,7 @@ export default function Contact() {
         <section className="flex flex-wrap justify-evenly basis-full pl-5 pr-5 sm:pl-[7.5rem] sm:pr-[7.5rem] mb-16 sm:mb-[11.375rem]">
             <ContactItemContainer>
                 <img alt="logo" src={logo} className="h-8 w-28 mb-5" />
-                <p className="text-base text-neutralcolorwhite brand-text mb-1 sm:mb-3.5 font-[450]">
+                <p className="text-base text-neutralcolorwhite common-text mb-1 sm:mb-3.5 font-[450]">
                     Follow us on social media:
                 </p>
                 <div className="flex">

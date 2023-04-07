@@ -16,6 +16,7 @@ module.exports = {
     theme: {
         extend: {
             fontSize: {
+                "2rem": "2rem",
                 "2.5rem": "2.5rem",
             },
             padding: {
@@ -35,6 +36,7 @@ module.exports = {
                 "6.563rem": "6.563rem",
                 "7.375rem": "7.375rem",
                 "8.188rem": "8.188rem",
+                "8.375rem": "8.375rem",
                 "9.375rem": "9.375rem",
                 "4.375rem": "4.375rem",
                 "11.25rem": "11.25rem",
@@ -64,6 +66,7 @@ module.exports = {
                 "25.375rem": "25.375rem",
                 "11.313rem": "11.313rem",
                 "13.125rem": "13.125rem",
+                "5.313rem": "5.313rem",
                 "7.313rem": "7.313rem",
                 "9.125rem": "9.125rem",
                 "19.063rem": "19.063rem",
