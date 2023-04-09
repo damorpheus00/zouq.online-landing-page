@@ -3,10 +3,6 @@
     background-size: cover;
 }
 
-.common-text {
-    font-family: "Circular Std-Medium", Helvetica;
-}
-
 .category-text {
     background: linear-gradient(180deg, #000000 0%, #000000 100%);
     opacity: 0.8;
@@ -52,5 +48,17 @@
 @media screen and (max-width: 425px) {
     .banner {
         background-image: url("./assets/images/mobile-banner.png");
+    }
+    .signup-form-container {
+        background-image: url("./assets/images/signup-right-bg.png");
+    }
+    .join-us-form {
+        background-image: url("./assets/images/MobileJoinUsBG.svg");
+    }
+}
+
+@media screen and (max-width: 1030px) {
+    .banner {
+        background-image: url("./assets/images/medium-banner.png");
     }
 }

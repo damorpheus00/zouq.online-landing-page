@@ -7,7 +7,7 @@ export default function ServicesImage() {
                 <img
                     src={zouqHalal}
                     alt="Zouq Halal"
-                    className="h-[19.063rem] sm:h-[24.688rem] w-[20.938rem] sm:w-[25.375rem]"
+                    className="h-[19.063rem] w-[20.938rem] sm:h-[18.563] sm:w-[19.125rem] xl:h-[24.688rem] xl:w-[25.375rem]"
                 />
             </div>
         </>

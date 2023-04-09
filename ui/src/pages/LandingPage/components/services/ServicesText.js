@@ -5,7 +5,7 @@ export default function ServicesText({ text, centered = true, color }) {
         <p
             className={`${
                 color && color
-            } text-base font-medium sm:text-2xl sm:font-bold ${
+            } text-base font-medium md:text-lg xl:text-2xl sm:font-bold ${
                 centered && "text-center"
             } `}
         >

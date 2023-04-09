@@ -11,7 +11,7 @@ export default function FooterText({
             {link ? (
                 <a
                     href={href}
-                    className={`text-neutralcolorwhite common-text text-sm font-[450] ${
+                    className={`text-neutralcolorwhite  text-sm font-[450] ${
                         additionalStyle && additionalStyle
                     }`}
                 >
@@ -19,7 +19,7 @@ export default function FooterText({
                 </a>
             ) : (
                 <p
-                    className={`text-neutralcolorwhite common-text text-sm font-[450] ${
+                    className={`text-neutralcolorwhite  text-sm font-[450] ${
                         additionalStyle && additionalStyle
                     }`}
                 >

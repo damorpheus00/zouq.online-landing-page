@@ -16,10 +16,10 @@ export default function BenefitsForMerchantsListItem({
                 <img alt="check" src={check} />
             </div>
             <div className="flex flex-col">
-                <p className="text-lg sm:text-[2.5rem] text-primarypaleblue font-black sm:ml-0 ml-9 sm:mb-0 mb-4">
+                <p className="text-lg md:text-2xl xl:text-[2.5rem] text-primarypaleblue font-black sm:ml-0 ml-9 sm:mb-0 mb-4">
                     {textHeader}
                 </p>
-                <p className="text-base sm:text-2xl text-neutralcolorwhite font-medium sm:font-bold">
+                <p className="text-base md:text-lg xl:text-2xl text-neutralcolorwhite font-medium sm:font-bold">
                     {textDescription}
                 </p>
             </div>
