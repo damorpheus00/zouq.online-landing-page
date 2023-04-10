@@ -21,7 +21,8 @@ export default function NavBar({ openMenu, handleChangeOpenMenu }) {
                 />
             </div>
             <div className="hidden xl:flex basis-6/12 justify-center text-neutralcolorwhite">
-                <NavLink href={"/home"} withMarginRight={true} text={"Home"} />
+                {/* COMMENTED NO DESIGN YET */}
+                {/* <NavLink href={"/home"} withMarginRight={true} text={"Home"} />
                 <NavLink
                     href={"/services"}
                     withMarginRight={true}
@@ -31,7 +32,7 @@ export default function NavBar({ openMenu, handleChangeOpenMenu }) {
                     href={"/about"}
                     withMarginRight={true}
                     text={"About"}
-                />
+                /> */}
             </div>
             <div className="hidden xl:flex justify-end basis-3/12 text-neutralcolorwhite">
                 <JoinUsButton bgColor={"bg-primarypaleblue"} />

@@ -8,7 +8,7 @@ import Banner from "./components/banner/Banner";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 import "../../App.css";
-import MediumScreenNav from "./components/medium-screen-nav/MediumScreenNav";
+import SmallScreenNav from "./components/small-screen-nav/SmallScreenNav";
 
 function LandingPage() {
     const [openMenu, setOpenMenu] = useState(false);
@@ -21,7 +21,7 @@ function LandingPage() {
                 openMenu={openMenu}
                 handleChangeOpenMenu={handleChangeOpenMenu}
             />
-            <MediumScreenNav openMenu={openMenu} />
+            <SmallScreenNav openMenu={openMenu} />
             <Hero />
             <FeaturedCategory />
             <BenifitsForMerchants />
