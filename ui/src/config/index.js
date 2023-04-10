@@ -1,1 +1,1 @@
-export const defaultAPI = "http://13.214.131.216:8081";
+export const defaultAPI = "https://zouq.online/api";
