@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import logo from "../../assets/images/logo.png";
 import JoinUsPageColumn from "./JoinUsPageColumn";
@@ -22,6 +22,17 @@ export default function JoinUsPage() {
             setSuccess(true);
         }
     };
+
+    useEffect(() => {
+        if (success) {
+            const timeout = setTimeout(() => {
+                // 👇️ redirects to our FB page
+                window.location.replace("https://www.facebook.com/ZouqOnline");
+            }, 3000);
+
+            return () => clearTimeout(timeout);
+        }
+    }, [success]);
 
     return (
         <>
@@ -172,7 +183,14 @@ export default function JoinUsPage() {
                             <div className="flex mx-[1.688rem] md:mx-10 xl:mx-[8.375rem] mt-8 mb-[2rem] md:mb-0">
                                 <button
                                     type="submit"
-                                    className="bg-primarypaleblue w-full rounded-[2.5rem] px-4 py-3.5  font-bold text-lg"
+                                    className={`bg-primarypaleblue w-full rounded-[2.5rem] px-4 py-3.5  font-bold text-lg ${
+                                        !name || !email || !phone || !customer
+                                            ? "opacity-5"
+                                            : ""
+                                    }`}
+                                    disabled={
+                                        !name || !email || !phone || !customer
+                                    }
                                 >
                                     Submit
                                 </button>

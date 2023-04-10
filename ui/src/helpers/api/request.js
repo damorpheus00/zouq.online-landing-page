@@ -19,16 +19,6 @@ export default {
                         error: error,
                     });
                 });
-
-            // .end((error, result) => {
-            //     if (error) {
-            //         return reject({
-            //             error: error,
-            //             result: result,
-            //         });
-            //     }
-            //     resolve(result.body);
-            // });
         });
     },
 };
