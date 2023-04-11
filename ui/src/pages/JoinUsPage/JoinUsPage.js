@@ -48,7 +48,7 @@ export default function JoinUsPage() {
                                 >
                                     <img
                                         src={logo}
-                                        alt="logo"
+                                        alt="Zouq Logo"
                                         className="h-[1.875rem]"
                                     />
                                 </Link>
@@ -68,7 +68,7 @@ export default function JoinUsPage() {
                                 <img
                                     src={congratulationsIcon}
                                     className="h-[8.25rem] w-[8.25rem]"
-                                    alt="congratulation-icon"
+                                    alt="Congratulations!"
                                 />
                             </div>
                             <div className="flex mx-[1.688rem] md:mx-10 xl:mx-[8.375rem] mt-8 mb-[2rem] md:mb-0">
@@ -98,20 +98,20 @@ export default function JoinUsPage() {
                                 >
                                     <img
                                         src={logo}
-                                        alt="logo"
+                                        alt="Zouq Logo"
                                         className="h-[1.875rem]"
                                     />
                                 </Link>
                             </div>
                             <div className="flex justify-center mt-[3.75rem] md:mt-[5.75rem] xl:mt-[7.375rem]">
-                                <p className="text-2xl md:text-[1.75rem] xl:text-[2rem] text-primarypaleblue font-black text-center">
+                                <h3 className="text-2xl md:text-[1.75rem] xl:text-[2rem] text-primarypaleblue font-black text-center">
                                     Be among our first users!
-                                </p>
+                                </h3>
                             </div>
                             <div className="flex justify-center mt-2 md:mt-0">
-                                <p className="md:text-lg xl:text-xl text-neutralcolorwhite font-[450]">
+                                <h4 className="md:text-lg xl:text-xl text-neutralcolorwhite font-[450]">
                                     Sign-up for our beta.
-                                </p>
+                                </h4>
                             </div>
                             <div className="flex flex-col justify-center mt-[3.625rem] md:mt-[3.75rem] mx-[1.688rem] md:mx-10 xl:mx-[8.375rem]">
                                 <JoinUsPageInput

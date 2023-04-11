@@ -16,7 +16,7 @@ export default function NavBar({ openMenu, handleChangeOpenMenu }) {
             <div className="flex sm:basis-3/12 basis-6/12">
                 <img
                     src={openMenu ? blackLogo : logo}
-                    alt={"zouqlogo"}
+                    alt={"Zouq Logo"}
                     className="sm:w-[11.313rem] sm:h-[3.225rem] w-[7.313rem] h-[2.063rem] transition-all"
                 />
             </div>
@@ -41,7 +41,7 @@ export default function NavBar({ openMenu, handleChangeOpenMenu }) {
                 <button onClick={handleChangeOpenMenu}>
                     <img
                         src={openMenu ? x : burgerMenu}
-                        alt={"zouqlogo"}
+                        alt={"Zouq Logo"}
                         className="w-[2.125rem] h-[2.125rem]"
                     />
                 </button>

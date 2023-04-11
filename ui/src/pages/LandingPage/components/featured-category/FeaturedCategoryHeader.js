@@ -27,7 +27,7 @@ export default function FeaturedCategoryHeader({ scroll }) {
                 >
                     <img
                         src={leftHovered ? leftHover : leftDefault}
-                        alt={"left-icon"}
+                        alt={"Zouq left icon"}
                         className="h-6 w-6 sm:h-10 sm:w-10"
                     />
                 </button>
@@ -45,7 +45,7 @@ export default function FeaturedCategoryHeader({ scroll }) {
                 >
                     <img
                         src={rightHovered ? rightHover : rightDefault}
-                        alt={"right-icon"}
+                        alt={"Zouq right icon"}
                         className="h-6 w-6 sm:h-10 sm:w-10"
                     />
                 </button>

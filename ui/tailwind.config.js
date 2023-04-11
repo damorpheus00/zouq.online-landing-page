@@ -25,8 +25,6 @@ module.exports = {
             fontWeight: {},
         },
         colors: {
-            primaryblue: "#172082",
-            primarypaleBlue: "#3dd5f3",
             black: "#000000",
             neutralcolorblack4: "#535353",
             neutralcolorblack5: "#9e9e9e",

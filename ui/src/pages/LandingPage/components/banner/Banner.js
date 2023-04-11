@@ -8,7 +8,7 @@ export default function Banner() {
             <div className="flex justify-center sm:justify-end items-center basis-full md:basis-4/12 xl:basis-3/12">
                 <img
                     src={logo}
-                    alt={"zouqlogo"}
+                    alt={"Zouq Logo"}
                     className="mt-8 sm:mt-0 w-[9.125rem] h-[2.625rem] sm:w-[11.438rem] sm:h-[3.25rem] md:mr-2 xl:mr-10"
                 />
             </div>
