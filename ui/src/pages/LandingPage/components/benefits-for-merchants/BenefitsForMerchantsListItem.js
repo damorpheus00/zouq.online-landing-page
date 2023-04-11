@@ -1,5 +1,5 @@
 import React from "react";
-import check from "../../../../assets/images/check.png";
+import benefitCheck from "../../../../assets/images/benefit-check.png";
 
 export default function BenefitsForMerchantsListItem({
     textHeader,
@@ -8,18 +8,22 @@ export default function BenefitsForMerchantsListItem({
 }) {
     return (
         <div
-            className={`flex items-start sm:items-center ${
-                largeMarginBottom ? "mb-10 sm:mb-[3.75rem]" : "mb-8"
+            className={`flex md:mr-3 md:basis-5/12 xl:basis-4/12 xl:mr-0 bg-contain bg-no-repeat bg-center h-[17rem] lg:h-[19.313rem] flex-col benefits-for-merchants-container ${
+                largeMarginBottom && "mb-10 sm:mb-[3.75rem] xl:mb-0"
             }`}
         >
-            <div className="flex justify-center sm:mr-4 min-h-7 min-w-7 sm:static absolute">
-                <img alt="Zouq benefits check list item." src={check} />
-            </div>
-            <div className="flex flex-col">
-                <h3 className="text-lg md:text-2xl xl:text-[2.5rem] text-primarypaleblue font-black sm:ml-0 ml-9 sm:mb-0 mb-4">
+            <div className="flex justify-center mt-[4rem] lg:mt-[3.125rem]">
+                <img
+                    className="h-7 w-7 mr-1"
+                    alt="Zouq benefits check list item."
+                    src={benefitCheck}
+                />
+                <h3 className="text-lg md:text-xl xl:text-2xl text-primarypaleblue font-black sm:mb-0 mb-4 text-shadow">
                     {textHeader}
                 </h3>
-                <h4 className="text-base md:text-lg xl:text-2xl text-neutralcolorwhite font-medium sm:font-bold">
+            </div>
+            <div className="flex justify-center mt-5 lg:mt-10">
+                <h4 className="text-base md:text-lg xl:text-xl text-neutralcolorwhite font-medium sm:font-bold text-center  lg:w-[18.75rem]">
                     {textDescription}
                 </h4>
             </div>

@@ -9,6 +9,18 @@
     backdrop-filter: blur(6px);
 }
 
+.category-text-hovered {
+    background: #3dd5f3;
+}
+
+.benefits-for-merchants-container {
+    background-image: url("./assets/images/benefit-bg.png");
+}
+
+.text-shadow {
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
 .banner {
     background-image: url("./assets/images/zouq-banner.png");
 }
@@ -54,11 +66,5 @@
     }
     .join-us-form {
         background-image: url("./assets/images/MobileJoinUsBG.svg");
-    }
-}
-
-@media screen and (max-width: 1030px) {
-    .banner {
-        background-image: url("./assets/images/medium-banner.png");
     }
 }

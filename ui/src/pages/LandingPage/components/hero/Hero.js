@@ -11,7 +11,7 @@ export default function Hero() {
             <div className="mb-4 sm:mb-6">
                 <p className="text-base sm:text-lg font-black text-neutralcolorwhite">
                     All your{" "}
-                    <span className="text-primarypaleBlue"> halal needs </span>{" "}
+                    <span className="text-primarypaleblue"> halal needs </span>{" "}
                     in one marketplace
                 </p>
             </div>

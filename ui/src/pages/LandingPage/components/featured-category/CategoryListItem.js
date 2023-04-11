@@ -1,15 +1,33 @@
-import React from "react";
+import React, { useState } from "react";
 
 export default function CategoryListItem({ text, imgSrc }) {
+    const [hovered, setHovered] = useState(false);
+
     return (
-        <div className="flex justify-center mr-5 md:mr-10 xl:mr-0 basis-full md:basis-4/12 xl:basis-3/12 items-end">
+        <div
+            onMouseEnter={() => {
+                setHovered(true);
+            }}
+            onMouseLeave={() => {
+                setHovered(false);
+            }}
+            className="flex justify-center mr-5 md:mr-10 basis-full md:basis-4/12 xl:basis-3/12 items-end overflow-hidden rounded-[1.25rem] relative min-w-max"
+        >
             <img
                 src={imgSrc}
                 alt={`Zouq ${text}`}
-                className="min-w-[13.125rem] min-h-[16.875rem] md:min-h-[18.125rem] md:min-w-[15.813rem] xl:min-h-[19.75rem] xl:min-w-[16.75rem] rounded-[1.25rem]"
+                className="basis-full transition-all duration-300 hover:scale-150 rounded-[1.25rem]"
             />
-            <div className="flex justify-center items-center min-w-[13.125rem] min-h-[3.313rem] md:min-h-[3.625rem] md:min-w-[15.9rem] xl:min-h-[3.625rem] xl:min-w-[16.75rem] absolute category-text rounded-b-[1.25rem]">
-                <p className="text-base text-neutralcolorwhite font-bold  rounded-b-[1.25rem]">
+            <div
+                className={`flex justify-center items-center absolute rounded-b-[1.25rem] top-[80%] bottom-0 left-0 right-0 ${
+                    hovered ? "category-text-hovered" : "category-text"
+                } `}
+            >
+                <p
+                    className={`text-base font-bold rounded-b-[1.25rem] ${
+                        hovered ? "text-black" : "text-neutralcolorwhite"
+                    }`}
+                >
                     {text}
                 </p>
             </div>

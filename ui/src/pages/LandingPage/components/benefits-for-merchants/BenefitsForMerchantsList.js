@@ -3,7 +3,7 @@ import BenefitsForMerchantsListItem from "./BenefitsForMerchantsListItem";
 
 export default function BenefitsForMerchantsList() {
     return (
-        <>
+        <div className="flex justify-center items-center flex-wrap basis-full xl:mb-40">
             <BenefitsForMerchantsListItem
                 textHeader={"Increased Orders"}
                 textDescription={
@@ -23,6 +23,6 @@ export default function BenefitsForMerchantsList() {
                 }
                 largeMarginBottom={true}
             />
-        </>
+        </div>
     );
 }

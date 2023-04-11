@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function ServicesText({ text, centered = true, color }) {
+export default function ServicesText({ text, centered, color }) {
     return (
         <p
             className={`${

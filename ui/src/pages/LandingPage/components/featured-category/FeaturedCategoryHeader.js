@@ -39,7 +39,7 @@ export default function FeaturedCategoryHeader({ scroll }) {
                         setRightHovered(false);
                     }}
                     onClick={() => {
-                        scroll(100);
+                        scroll(150);
                     }}
                     className="flex justify-center items-center "
                 >

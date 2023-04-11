@@ -4,7 +4,7 @@ import ServicesText from "./ServicesText";
 
 export default function ServicesDescription() {
     return (
-        <div className="flex basis-full sm:basis-7/12 flex-col items-center">
+        <div className="flex basis-full xl:basis-7/12 flex-col">
             <div className="mb-5 sm:mb-[3.75rem]">
                 <Header text1={"Our"} text2={"Services"} />
             </div>
@@ -14,6 +14,7 @@ export default function ServicesDescription() {
                     text={
                         "Zouq streamlines application for Halal certification of interested establishments."
                     }
+                    centered={false}
                 />
             </div>
             <div className="mb-5 sm:mb-[2.5rem]">
@@ -22,9 +23,10 @@ export default function ServicesDescription() {
                     text={
                         "We partner with internationally recognized and reputable Halal certification bodies for all training and accreditation services."
                     }
+                    centered={false}
                 />
             </div>
-            <div className="flex flex-col items-center sm:mb-0 mb-7">
+            <div className="flex flex-col sm:mb-0 mb-7">
                 <ServicesText
                     color={"text-neutralcolorwhite"}
                     text={"Contact us to get halal certified:"}
