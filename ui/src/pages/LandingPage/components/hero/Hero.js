@@ -1,5 +1,5 @@
 import React from "react";
-import JoinUsButton from "../../../../components/buttons/JoinUsButton";
+import CommonButton from "../../../../components/buttons/CommonButton";
 import Header from "../../../../components/header/header";
 
 export default function Hero() {
@@ -16,7 +16,11 @@ export default function Hero() {
                 </p>
             </div>
             <div className="flex">
-                <JoinUsButton bgColor={"bg-neutralcolorwhite"} />
+                <CommonButton
+                    to={"/join-us"}
+                    text={"Join Us"}
+                    bgColor={"bg-neutralcolorwhite"}
+                />
             </div>
         </section>
     );

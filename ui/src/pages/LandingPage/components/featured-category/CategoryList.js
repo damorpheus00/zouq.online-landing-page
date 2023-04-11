@@ -14,7 +14,8 @@ export default function CategoryList({ categoryListRef }) {
             <CategoryListItem imgSrc={resort} text={"HOTELS & RESORTS"} />
             <CategoryListItem imgSrc={restaurant} text={"RESTAURANTS"} />
             <CategoryListItem imgSrc={groceries} text={"GROCERIES"} />
-            <CategoryListItem imgSrc={fashion} text={"FASHION & COSMETICS"} />
+            <CategoryListItem imgSrc={fashion} text={"FASHION"} />
+            <CategoryListItem imgSrc={fashion} text={"COSMETICS"} />
         </div>
     );
 }

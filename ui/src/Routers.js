@@ -5,12 +5,22 @@ import JoinUsPage from "./pages/JoinUsPage/JoinUsPage";
 import ServicesPage from "./pages/ServicesPage/ServicesPage";
 import AboutPage from "./pages/AboutPage/AboutPage";
 import HomePage from "./pages/HomePage.js/HomePage";
+import LoginPage from "./pages/LoginPage/LoginPage";
+import SignUpPage from "./pages/SignUpPage/SignUpPage";
 
 const Routers = () => {
     const router = createBrowserRouter([
         {
             path: "/",
             element: <LandingPage />,
+        },
+        {
+            path: "/login",
+            element: <LoginPage />,
+        },
+        {
+            path: "/sign-up",
+            element: <SignUpPage />,
         },
         {
             path: "/join-us",

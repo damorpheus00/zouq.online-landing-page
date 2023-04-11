@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../../../../assets/images/logo.png";
-import JoinUsButton from "../../../../components/buttons/JoinUsButton";
+import CommonButton from "../../../../components/buttons/CommonButton";
 
 export default function Banner() {
     return (
@@ -13,7 +13,11 @@ export default function Banner() {
                 />
             </div>
             <div className="flex justify-center sm:mb-0 mb-7 sm:justify-start items-center basis-full md:basis-3/12 xl:basis-3/12">
-                <JoinUsButton bgColor={"bg-neutralcolorwhite"} />
+                <CommonButton
+                    text={"Join Us"}
+                    to={"/join-us"}
+                    bgColor={"bg-neutralcolorwhite"}
+                />
             </div>
         </section>
     );
