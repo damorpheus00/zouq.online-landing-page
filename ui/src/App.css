@@ -57,6 +57,15 @@
     top: 18px;
 }
 
+@media screen and (min-width: 768px) {
+    .banner {
+        background-image: url("./assets/images/medium-banner.png");
+    }
+    .benefits-for-merchants-container {
+        background-image: url("./assets/images/medium-benefit-bg.png");
+    }
+}
+
 @media screen and (max-width: 425px) {
     .banner {
         background-image: url("./assets/images/mobile-banner.png");
@@ -66,5 +75,8 @@
     }
     .join-us-form {
         background-image: url("./assets/images/MobileJoinUsBG.svg");
+    }
+    .benefits-for-merchants-container {
+        background-image: url("./assets/images/small-benefit-bg.png");
     }
 }

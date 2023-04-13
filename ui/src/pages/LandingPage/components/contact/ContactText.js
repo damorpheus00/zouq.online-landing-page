@@ -1,20 +1,21 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function ContactText({ link, href, text, withMarginBottom }) {
     return (
         <>
             {link ? (
-                <a
-                    href={href}
-                    className={`text-base text-neutralcolorwhite  font-[450] ${
+                <Link
+                    to={href}
+                    className={`text-base text-neutralcolorwhite font-[450] ${
                         withMarginBottom && "mb-3 "
                     }`}
                 >
                     {text}
-                </a>
+                </Link>
             ) : (
                 <p
-                    className={`text-base text-neutralcolorwhite  font-[450] ${
+                    className={`text-base text-neutralcolorwhite font-[450] ${
                         withMarginBottom && "mb-3 "
                     }`}
                 >

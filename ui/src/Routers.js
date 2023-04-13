@@ -1,12 +1,55 @@
-import React from "react";
-import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import React, { useState } from "react";
+import {
+    BrowserRouter,
+    Route,
+    Routes,
+    createBrowserRouter,
+    useLocation,
+} from "react-router-dom";
 import LandingPage from "./pages/LandingPage/LandingPage";
 import JoinUsPage from "./pages/JoinUsPage/JoinUsPage";
 import ServicesPage from "./pages/ServicesPage/ServicesPage";
 import AboutPage from "./pages/AboutPage/AboutPage";
-import HomePage from "./pages/HomePage.js/HomePage";
-import LoginPage from "./pages/LoginPage/LoginPage";
+import SignInPage from "./pages/SignInPage/SignInPage";
 import SignUpPage from "./pages/SignUpPage/SignUpPage";
+import NavBar from "./components/nav/NavBar";
+import SmallScreenNav from "./components/small-screen-nav/SmallScreenNav";
+import NavBarWithBackToHome from "./components/nav/NavBarWithBackToHome";
+
+function App() {
+    const [openMenu, setOpenMenu] = useState(false);
+    const handleChangeOpenMenu = () => {
+        setOpenMenu(!openMenu);
+    };
+    const { pathname } = useLocation();
+
+    console.log(pathname);
+    return (
+        <div className="flex relative basis-full flex-col h-view bg-primarydarkblue">
+            {pathname === "/sign-in" || pathname === "/sign-up" ? (
+                <NavBarWithBackToHome />
+            ) : (
+                <>
+                    <NavBar
+                        openMenu={openMenu}
+                        handleChangeOpenMenu={handleChangeOpenMenu}
+                    />
+                    <SmallScreenNav
+                        openMenu={openMenu}
+                        handleChangeOpenMenu={handleChangeOpenMenu}
+                    />
+                </>
+            )}
+
+            <Routes>
+                <Route path="/" element={<LandingPage />} />
+                <Route path="/services" element={<ServicesPage />} />
+                <Route path="/sign-in" element={<SignInPage />} />
+                <Route path="/sign-up" element={<SignUpPage />} />
+            </Routes>
+        </div>
+    );
+}
 
 const Routers = () => {
     const router = createBrowserRouter([
@@ -16,7 +59,7 @@ const Routers = () => {
         },
         {
             path: "/login",
-            element: <LoginPage />,
+            element: <SignInPage />,
         },
         {
             path: "/sign-up",
@@ -34,13 +77,12 @@ const Routers = () => {
             path: "/about",
             element: <AboutPage />,
         },
-        {
-            path: "/home",
-            element: <HomePage />,
-        },
     ]);
-
-    return <RouterProvider router={router} />;
+    return (
+        <BrowserRouter>
+            <App />
+        </BrowserRouter>
+    );
 };
 
 export default Routers;

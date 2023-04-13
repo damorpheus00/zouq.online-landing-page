@@ -9,7 +9,7 @@ export default function FeaturedCategory() {
         categoryListRef.current.scrollLeft += scrollOffset;
     };
     return (
-        <section className="flex flex-col basis-full px-5 lg:px-[7.5rem]  2xl:px-[7.5rem] ">
+        <section className="flex flex-col basis-full px-5 lg:px-[7.5rem] 2xl:px-[7.5rem]">
             <FeaturedCategoryHeader scroll={scroll} />
             <CategoryList categoryListRef={categoryListRef} />
         </section>

@@ -11,12 +11,12 @@ export default function CategoryListItem({ text, imgSrc }) {
             onMouseLeave={() => {
                 setHovered(false);
             }}
-            className="flex justify-center mr-5 md:mr-10 basis-full md:basis-4/12 xl:basis-3/12 items-end overflow-hidden rounded-[1.25rem] relative min-w-max"
+            className="mx-5 md:mr-[1.75rem] md:mx-0 xl:mx-[2.7rem] overflow-hidden relative rounded-[1.25rem] min-h-[16.875rem] min-w-[13.125rem] md:min-h-[16.875rem] md:min-w-[13.5rem] xl:min-h-[19.75rem] xl:min-w-[16.75rem]"
         >
             <img
                 src={imgSrc}
                 alt={`Zouq ${text}`}
-                className="basis-full transition-all duration-300 hover:scale-150 rounded-[1.25rem]"
+                className="min-h-[16.875rem] min-w-[13.125rem] md:min-h-[19.75rem] md:min-w-[16.75rem] transition-all duration-300 hover:scale-125 rounded-[1.25rem]"
             />
             <div
                 className={`flex justify-center items-center absolute rounded-b-[1.25rem] top-[80%] bottom-0 left-0 right-0 ${

@@ -3,8 +3,12 @@ import bannerLogo from "../../../../assets/images/banner-logo.png";
 
 export default function Banner() {
     return (
-        <section className="flex basis-full flex-wrap items-center justify-center banner p-14 h-24 md:h-[8rem] xl:h-[10rem] mb-[6.25rem] md:mb-40 xl:mb-[11.25rem] bg-cover md:bg-contain xl:bg-cover bg-no-repeat bg-center">
-            <img src={bannerLogo} alt={"Zouq Logo"} className="h-8" />
+        <section className="flex basis-full flex-wrap items-center justify-center banner min-h-[11.75rem] md:min-h-[11.25rem] xl:min-h-[10.188rem] mb-[6.25rem] md:mb-[6.75rem] xl:mb-40 bg-cover bg-no-repeat bg-center">
+            <img
+                src={bannerLogo}
+                alt={"Zouq Logo"}
+                className="min-h-8 min-w-[6.938rem]"
+            />
         </section>
     );
 }

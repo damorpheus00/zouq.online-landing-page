@@ -4,11 +4,11 @@ import ServicesText from "./ServicesText";
 
 export default function ServicesDescription() {
     return (
-        <div className="flex basis-full xl:basis-7/12 flex-col">
-            <div className="mb-5 sm:mb-[3.75rem]">
+        <div className="flex basis-full md:basis-5/12 xl:basis-6/12 flex-col mb-10 sm:mb-0">
+            <div className="mb-4 md:mb-[2rem] xl:mb-[3.75rem]">
                 <Header text1={"Our"} text2={"Services"} />
             </div>
-            <div className="mb-5 sm:mb-[1.75rem]">
+            <div className="mb-4 xl:mb-10">
                 <ServicesText
                     color={"text-neutralcolorwhite"}
                     text={
@@ -17,7 +17,7 @@ export default function ServicesDescription() {
                     centered={false}
                 />
             </div>
-            <div className="mb-5 sm:mb-[2.5rem]">
+            <div className="mb-4 xl:mb-10">
                 <ServicesText
                     color={"text-neutralcolorwhite"}
                     text={
@@ -26,7 +26,7 @@ export default function ServicesDescription() {
                     centered={false}
                 />
             </div>
-            <div className="flex flex-col sm:mb-0 mb-7">
+            <div className="flex flex-col">
                 <ServicesText
                     color={"text-neutralcolorwhite"}
                     text={"Contact us to get halal certified:"}

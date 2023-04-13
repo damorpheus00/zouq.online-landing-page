@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import logo from "../../assets/images/logo.png";
 import JoinUsPageColumn from "./JoinUsPageColumn";
 import JoinUsPageInput from "./JoinUsPageInput";

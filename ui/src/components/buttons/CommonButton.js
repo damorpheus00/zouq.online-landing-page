@@ -16,7 +16,7 @@ export default function CommonButton({
                 absoluteStyle ? absoluteStyle : ""
             } ${
                 additionalStyles && additionalStyles
-            } hover:bg-primarylightblue font-bold text-lg primarydarkblue text-primarydarkblue w-36 h-[3.25rem] rounded-[2.5rem] transition-all text-center pt-3`}
+            } hover:bg-primarylightblue font-bold text-base primarydarkblue text-primarydarkblue w-[7.5rem] xl:w-36 h-[3rem] rounded-[2.5rem] transition-all text-center pt-3`}
         >
             {text}
         </Link>

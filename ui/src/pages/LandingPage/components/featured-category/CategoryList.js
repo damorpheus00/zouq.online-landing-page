@@ -10,7 +10,7 @@ export default function CategoryList({ categoryListRef }) {
     return (
         <div
             ref={categoryListRef}
-            className="flex transition-all overflow-x-auto md:overflow-x-hidden basis-full mb-14 sm:mb-[9.375rem]"
+            className="flex transition-all overflow-x-auto md:overflow-x-hidden mb-[3.75rem] md:mb-[4.25rem] xl:mb-40"
         >
             <CategoryListItem imgSrc={resort} text={"HOTELS & RESORTS"} />
             <CategoryListItem imgSrc={restaurant} text={"RESTAURANTS"} />

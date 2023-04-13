@@ -9,10 +9,10 @@ import ContactText from "./ContactText";
 
 export default function Contact() {
     return (
-        <section className="flex flex-wrap justify-evenly basis-full px-5 lg:px-[7.5rem]  2xl:px-[7.5rem]  mb-16 md:mb-[6.25rem] xl:mb-[11.375rem]">
-            <ContactItemContainer>
-                <img alt="Zouq Logo" src={logo} className="h-8 w-28 mb-5" />
-                <p className="text-base text-neutralcolorwhite  mb-1 sm:mb-3.5 font-[450]">
+        <section className="flex flex-wrap justify-evenly basis-full px-5 lg:px-[7.5rem] 2xl:px-[7.5rem] mb-10 md:mb-[2.125rem] xl:mb-[9.875rem]">
+            <ContactItemContainer firstItem={true}>
+                <img alt="Zouq Logo" src={logo} className="h-8 w-28 mb-3" />
+                <p className="text-base text-neutralcolorwhite mb-2 font-[450]">
                     Follow us on social media:
                 </p>
                 <div className="flex">
@@ -29,13 +29,13 @@ export default function Contact() {
                 <ContactHeaderText text={"QUICK LINK"} />
                 <ContactText
                     link={true}
-                    href={"#services"}
+                    href={"/services"}
                     text={"Services"}
                     withMarginBottom={true}
                 />
                 <ContactText
                     link={true}
-                    href={"#about"}
+                    href={"/about"}
                     text={"About"}
                     withMarginBottom={false}
                 />
