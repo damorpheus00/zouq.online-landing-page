@@ -59,7 +59,7 @@ export default function JoinUsPage() {
                                 </p>
                             </div>
                             <div className="flex justify-center mt-2 md:mt-0 mx-[1.688rem] md:mx-10 xl:mx-[8.375rem]">
-                                <p className="md:text-lg xl:text-xl text-neutralcolorwhite font-[450] text-center">
+                                <p className="md:text-lg xl:text-xl text-white font-[450] text-center">
                                     A representative will be reaching out to you
                                     for our beta testing soon.
                                 </p>
@@ -109,7 +109,7 @@ export default function JoinUsPage() {
                                 </h3>
                             </div>
                             <div className="flex justify-center mt-2 md:mt-0">
-                                <h4 className="md:text-lg xl:text-xl text-neutralcolorwhite font-[450]">
+                                <h4 className="md:text-lg xl:text-xl text-white font-[450]">
                                     Sign-up for our beta.
                                 </h4>
                             </div>
@@ -131,7 +131,7 @@ export default function JoinUsPage() {
                                     placeholder={"username@gmail.com"}
                                 />
                                 <div className={`flex flex-col mt-5 relative`}>
-                                    <p className="text-lg text-neutralcolorwhite font-medium">
+                                    <p className="text-lg text-white font-medium">
                                         Phone
                                     </p>
                                     <div className="h-7 w-px bg-neutralcolorblack5 absolute top-[3.25rem] right-16 z-10" />
@@ -156,7 +156,7 @@ export default function JoinUsPage() {
                                     />
                                     <label
                                         htmlFor="customer"
-                                        className="text-sm md:text-base text-neutralcolorwhite"
+                                        className="text-sm md:text-base text-white"
                                     >
                                         I am a customer
                                     </label>
@@ -174,7 +174,7 @@ export default function JoinUsPage() {
                                     />
                                     <label
                                         htmlFor="merchant"
-                                        className="text-sm md:text-base text-neutralcolorwhite"
+                                        className="text-sm md:text-base text-white"
                                     >
                                         I am a merchant
                                     </label>

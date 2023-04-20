@@ -26,9 +26,11 @@ module.exports = {
         },
         colors: {
             black: "#000000",
+            neutralcolorblack: "#373737",
             neutralcolorblack4: "#535353",
             neutralcolorblack5: "#9e9e9e",
-            neutralcolorwhite: "#ffffff",
+            white: "#ffffff",
+            dirtywhite: "#CBD0DC",
             primaryblue: "#131b6c",
             primarydarkblue: "#0F161C",
             primarylightblue: "#3881c3",

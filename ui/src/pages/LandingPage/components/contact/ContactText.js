@@ -7,7 +7,7 @@ export default function ContactText({ link, href, text, withMarginBottom }) {
             {link ? (
                 <Link
                     to={href}
-                    className={`text-base text-neutralcolorwhite font-[450] ${
+                    className={`text-base text-white font-[450] ${
                         withMarginBottom && "mb-3 "
                     }`}
                 >
@@ -15,7 +15,7 @@ export default function ContactText({ link, href, text, withMarginBottom }) {
                 </Link>
             ) : (
                 <p
-                    className={`text-base text-neutralcolorwhite font-[450] ${
+                    className={`text-base text-white font-[450] ${
                         withMarginBottom && "mb-3 "
                     }`}
                 >

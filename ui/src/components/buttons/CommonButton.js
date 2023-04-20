@@ -8,6 +8,7 @@ export default function CommonButton({
     absoluteStyle,
     to,
     additionalStyles,
+    onClick,
 }) {
     return (
         <Link
@@ -17,6 +18,7 @@ export default function CommonButton({
             } ${
                 additionalStyles && additionalStyles
             } hover:bg-primarylightblue font-bold text-base primarydarkblue text-primarydarkblue w-[7.5rem] xl:w-36 h-[3rem] rounded-[2.5rem] transition-all text-center pt-3`}
+            onClick={onClick}
         >
             {text}
         </Link>

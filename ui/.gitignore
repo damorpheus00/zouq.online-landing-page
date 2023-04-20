@@ -25,3 +25,5 @@ yarn-error.log*
 
 # extra files
 /src/assets/img
+
+.env

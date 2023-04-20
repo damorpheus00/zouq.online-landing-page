@@ -3,9 +3,10 @@ import BenefitsForMerchantsListItem from "./BenefitsForMerchantsListItem";
 
 export default function BenefitsForMerchantsList() {
     return (
-        <div className="flex justify-evenly items-center flex-wrap xl:flex-nowrap basis-full mb-[3.25rem] md:mb-[3.75rem] xl:mb-40">
+        <div className="flex sm:justify-center xl:justify-evenly items-center flex-wrap xl:flex-nowrap basis-full mb-[3.25rem] md:mb-[3.75rem] xl:mb-40">
             <BenefitsForMerchantsListItem
                 textHeader={"Increased Orders"}
+                withMarginRight={true}
                 textDescription={
                     "Zouq is designed to help merchants or sellers reach more customers and get more orders or bookings."
                 }
@@ -21,6 +22,7 @@ export default function BenefitsForMerchantsList() {
                 textDescription={
                     "Zouq offers safe and flexible payment options for your customers."
                 }
+                lastItem={true}
             />
         </div>
     );

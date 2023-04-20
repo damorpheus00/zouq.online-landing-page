@@ -25,7 +25,7 @@ export default function CategoryListItem({ text, imgSrc }) {
             >
                 <p
                     className={`text-base font-bold rounded-b-[1.25rem] ${
-                        hovered ? "text-black" : "text-neutralcolorwhite"
+                        hovered ? "text-black" : "text-white"
                     }`}
                 >
                     {text}

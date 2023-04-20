@@ -9,10 +9,10 @@ import ContactText from "./ContactText";
 
 export default function Contact() {
     return (
-        <section className="flex flex-wrap justify-evenly basis-full px-5 lg:px-[7.5rem] 2xl:px-[7.5rem] mb-10 md:mb-[2.125rem] xl:mb-[9.875rem]">
+        <section className="flex flex-wrap justify-evenly basis-full px-5 sm:px-[2rem] lg:px-[7.5rem] 2xl:px-[7.5rem] mb-10 md:mb-[2.125rem] xl:mb-[9.875rem]">
             <ContactItemContainer firstItem={true}>
                 <img alt="Zouq Logo" src={logo} className="h-8 w-28 mb-3" />
-                <p className="text-base text-neutralcolorwhite mb-2 font-[450]">
+                <p className="text-base text-white mb-2 font-[450]">
                     Follow us on social media:
                 </p>
                 <div className="flex">

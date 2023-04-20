@@ -10,10 +10,7 @@ export default function JoinUsPageInput({
 }) {
     return (
         <div className={`flex flex-col ${withMarginTop && "mt-5"}`}>
-            <label
-                htmlFor={name}
-                className="text-lg text-neutralcolorwhite font-medium"
-            >
+            <label htmlFor={name} className="text-lg text-white font-medium">
                 {label}
             </label>
             <input
