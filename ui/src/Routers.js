@@ -15,6 +15,7 @@ import SignUpVerificationStep2 from "./pages/SignUpVerificationPage/component/Si
 import SignUpSuccessPage from "./pages/SignUpSuccessPage/SignUpSuccessPage";
 import MerchantCategorySelectPage from "./pages/MerchantCategorySelectPage/MerchantCategorySelectPage";
 import MerchantSetupPage from "./pages/MerchantSetupPage/MerchantSetupPage";
+import SignUpDetailPage from "./pages/SignUpDetailPage";
 
 function App() {
     const [openMenu, setOpenMenu] = useState(false);
@@ -98,6 +99,13 @@ function App() {
                     exact
                     path="/merchant-setup"
                     element={<MerchantSetupPage />}
+                />
+
+                {/* signup routes */}
+                <Route
+                    exact
+                    path="/sign-up/register-email"
+                    element={<SignUpDetailPage />}
                 />
             </Routes>
         </div>

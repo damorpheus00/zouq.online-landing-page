@@ -4,8 +4,10 @@ import AuthCard from "../../components/cards/AuthCard";
 import AuthButton from "../../components/buttons/AuthButton";
 import CustomerTypeBox from "./components/CustomerTypeBox";
 
-export default function SignUpPage() {
+export default function SignUpPage(props) {
     const [selected, setSelected] = useState("");
+
+    console.log('props', props);
 
     return (
         <AuthContainer>
@@ -31,7 +33,7 @@ export default function SignUpPage() {
                     <AuthButton
                         disable={!selected}
                         text={"Continue"}
-                        to={"/sign-up-step-2"}
+                        to={"/sign-up/register-email"}
                     />
                 </div>
             </AuthCard>
